@@ -29,29 +29,8 @@ HospitalManagementSystem/
  └── hospital_db.sql
 ```
 
-## ⚙️ Setup
-1. Install **MySQL** and **Java JDK**.
-2. Import `hospital_db.sql` into MySQL (creates DB + tables + sample doctors).
-3. Edit DB credentials in `src/DatabaseConnection.java` (user/password).
-4. Ensure **MySQL Connector/J** is on classpath when compiling/running.
-
-### 🧪 Compile & Run (terminal)
-```bash
-# Go to src
-cd src
-
-# Compile (adjust mysql-connector path if needed)
-javac -cp .:mysql-connector-j.jar *.java
-
-# Run
-java -cp .:mysql-connector-j.jar Main
-```
-
-> On Windows, replace `:` with `;` in classpath.
-
 ## 🔐 Notes
 - This demo stores no passwords and has minimal validation — add auth before production use.
 - Add indexes/constraints as needed for larger datasets.
 
-## 📄 License
-MIT
+

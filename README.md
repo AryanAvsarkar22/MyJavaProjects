@@ -13,3 +13,9 @@ A console-based Java application with MySQL integration to browse, add to cart, 
 A simple Java console application to fetch live weather data using OpenWeatherMap API.
 
 [WeatherApp/README.md](WeatherApp/README.md)
+
+
+3. Hospital Management System
+A Java-based desktop application with MySQL integration to manage patient records, doctor details, appointments, billing, and hospital administration through a user-friendly interface.
+
+[HospitalManagementSystem/README.md](HospitalManagementSystem/README.md)
